@@ -58,7 +58,7 @@ export default [
         format: "esm"
       }
     ],
-    // external: [/\.s?css$/],
+    external: [/\.s?css$/],
     plugins: [dts()],
   }
 ]
