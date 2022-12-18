@@ -41,11 +41,7 @@ export default [
           "**/*.stories.tsx",
         ],
       }),
-      postcss({
-        extract: true,
-        modules: true,
-        use: ["sass"],
-      }),
+      postcss(),
       terser()
     ],
     external: ["react", "react-dom", "styled-components"]
